@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 public partial class _Default : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=ROOM020\SQLEXPRESS;Initial Catalog=ABcDatabase;Integrated Security=True");
+    SqlConnection con = new SqlConnection(@"Server=f8dc8339-1138-4bb7-b208-a3b30030c557.sqlserver.sequelizer.com;Database=dbf8dc833911384bb7b208a3b30030c557;User ID=bsyqfqpidklhntbl;Password=fDReqRgJqwfe2LrPw2TniCmE7WkZCaJpa2mpoYuuKxwYGEAChT3MbYsJrmgBEpfp;");
     SqlCommand cmd;
     SqlDataAdapter da;
     DataTable dt;
